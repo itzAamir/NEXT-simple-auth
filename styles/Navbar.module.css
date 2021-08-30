@@ -1,0 +1,24 @@
+.nav {
+	background: #a29ead;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 0.5rem;
+}
+
+.nav li {
+	list-style: none;
+	padding: 1rem;
+	transition: all ease 400ms;
+	cursor: pointer;
+}
+
+.nav li:hover {
+	background: #000;
+	color: white;
+}
