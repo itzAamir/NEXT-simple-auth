@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useState } from "react";
 import { useRouter } from "next/dist/client/router";
 
-const register = () => {
+const Register = () => {
 	const [username, setUsername] = useState("");
 	const [password, setPassword] = useState("");
 	const router = useRouter();
@@ -61,4 +61,4 @@ const register = () => {
 	);
 };
 
-export default register;
+export default Register;
